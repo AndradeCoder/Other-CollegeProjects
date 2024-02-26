@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Pesquisa Básica de Jogos</title>
+
+ <style>
+    body {
+        background-color: #6699cc;;
+    }
+    a:link, a:visited, a:hover {
+        border: 6px groove black;
+        display: inline-block;
+        padding: 2px 6px;
+        font-style: italic;
+        text-decoration: none;
+    }
+    a:visited {
+        background: purple;
+        color: white; 
+        border-color: magenta;
+    }
+    a:link{
+        background: darkblue;
+        color: whitesmoke;
+        border-color: cyan;
+    }
+    a:hover {
+        background: red;
+        color: whitesmoke;
+        text-decoration: underline;
+        border-color: lightsalmon;
+    }
+    </style>
+</head>
+<body>
+  <center>
+    <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Inserir um número de ID para pesquisar por jogos</h1>
+
+    <br>
+    <form method="post" action="basic_search.php">
+       <p><br></p>
+       <p><label>Nº de ID de jogo: </label>
+       <input type="number" name="ID"><input type="submit" value="Pesquisar" style="border: 6px groove #d47260; color: white; background: #d04437;"></p>
+    </form>
+    <p><br></p>
+    <p><a href="MenuInicial.htm">Voltar ao Inicio </a><hr size="3.5" color="blue"></p>
+
+  </center>   
+</body>
+</html>
